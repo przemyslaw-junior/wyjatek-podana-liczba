@@ -20,8 +20,10 @@ def readint(prompt, min, max):
 # kontynuacja pętli
             continue
 # zwrucenie poprawnej liczby użytkownika
-    return x 
+    return x
+
 # wywołanie funkcji "readint"
 v = readint("Podaj liczbę od -10 do 10: ", -10, 10)
+
 # wyświetlenie wyniku
 print("Liczba to:", v)
